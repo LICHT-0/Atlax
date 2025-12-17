@@ -1395,4 +1395,64 @@ border-radius: 24px;
     width: 18rem;
   }
 }
+ @media (max-width: 900px) {
+
+  /* ===== EXPLORE SECTION ===== */
+  .explore-card {
+    width: 95%;
+    height: auto;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .card-two {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .explore-card1 {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ===== SERVICES SECTION ===== */
+  .services {
+    padding: 3rem 1rem;
+  }
+
+  .serv1,
+  .serv2,
+  .serv3 {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .serv1-left,
+  .serv2-right,
+  .serv3-left {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .serv1 h2,
+  .serv2-right h2,
+  .serv3 h2 {
+    font-size: 2rem;
+  }
+
+  .serv1 img,
+  .serv2 img,
+  .serv3 img {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  /* ===== FAQ ===== */
+  .faq {
+    padding: 3rem 1rem;
+  }
+}
 
